@@ -7,7 +7,7 @@ const port = process.env.PORT || 8000;
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://waygobustravels.vercel.app"],
+    origin: ["http://localhost:3000", "https://tonmoy-pro.vercel.app"],
     credentials: true,
   })
 );
